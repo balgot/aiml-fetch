@@ -77,6 +77,13 @@ python download-botlibre.py
 
 #
 #
+log techmaru sets and map
+#
+#
+python download-techmaru-sets.py
+
+#
+#
 log Alice I
 #
 # git clone https://github.com/drwallace/aiml-en-us-foundation-alice.git alice-bot-v1
