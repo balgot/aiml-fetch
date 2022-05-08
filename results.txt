@@ -1,0 +1,50 @@
+Number of .aiml files: 2071
+Number of <category> elements 2363175
+Total size  409.900MiB
+version="1.0"            2705
+version="1.0.1"                  15
+version="2.0"            312
+
+<set             1377143
+<random                  363075
+<condition               9221
+<if              20
+<then            1
+<else            1
+<gossip                  18
+<loop            173
+</srai>                  765011
+<sr/>            31223
+</sraix>                 3332
+<get             216877
+<map             1029
+<bot             50823
+<date            1402
+<interval                48
+<think           1367299
+<explode                 124
+<normalize               24
+<denormalize             15
+<formal                  1375
+<lowercase               86
+<uppercase               23056
+<sentence                28
+</person>                2571
+</person2>               39
+<star            361500
+<thatstar                1557
+<topicstar               38
+<input           1251
+<request                 450
+<response                446
+</learn>                 33463
+</learnf>                105
+<eval            55206
+<id              122
+<vocabulary              9
+<program                 25
+<system                  360
+<javascript              29
+<size            56
+
+08 May 2022

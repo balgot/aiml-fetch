@@ -1,13 +1,21 @@
 #!/bin/bash
 
-
-# first we start with analyzin the number of files and categories
+# first we start with analysing the number of files and categories
 find . -name '*.aiml' | wc -l | xargs echo "Number of .aiml files:"
+grep -ro "</category>" . | wc -l | xargs echo -n "Number of <category> elements"
+ls -lR | grep "\.aiml" | awk '{ x += $5 } END { print x }' | numfmt --to=iec-i --suffix=B --format="%.3f" | xargs echo "Total size "
+echo
 
+# accross different versions
+for version in 'version="1.0"' 'version="1.0.1"' 'version="2.0"'
+do
+    grep -ro $version . | wc -l | xargs echo -e $version "\t\t"
+done
+echo
 
-echo -n "Number of <category> elements"
-grep -ro "<category>" . | wc -l | xargs echo "Total matches :"
-
-grep -ro 'version="1.0"' . | wc -l | xargs echo "Number of AIML 1.0 versions"
-grep -ro 'version="1.0.1"' . | wc -l | xargs echo "Number of AIML 1.0.1 versions"
-grep -ro 'version="2.0"' . | wc -l | xargs echo "Number of AIML 2.0 versions"
+# different tags
+for tag in $(cat aiml_tags.txt)
+do
+    grep -ro $tag . | wc -l | xargs echo -e $tag "\t\t"
+done
+echo
