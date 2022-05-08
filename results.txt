@@ -1,50 +1,51 @@
+/** 08 May 2022 **/
 Number of .aiml files: 2071
 Number of <category> elements 2363175
 Total size  409.900MiB
-version="1.0"            2705
-version="1.0.1"                  15
-version="2.0"            312
 
-<set             1377143
-<random                  363075
-<condition               9221
-<if              20
-<then            1
-<else            1
-<gossip                  18
-<loop            173
-</srai>                  765011
-<sr/>            31223
-</sraix>                 3332
-<get             216877
-<map             1029
-<bot             50823
-<date            1402
-<interval                48
-<think           1367299
-<explode                 124
-<normalize               24
-<denormalize             15
-<formal                  1375
-<lowercase               86
-<uppercase               23056
-<sentence                28
-</person>                2571
-</person2>               39
-<star            361500
-<thatstar                1557
-<topicstar               38
-<input           1251
-<request                 450
-<response                446
-</learn>                 33463
-</learnf>                105
-<eval            55206
-<id              122
-<vocabulary              9
-<program                 25
-<system                  360
-<javascript              29
-<size            56
+aiml version="1.0"               593
+aiml version="1.0.1"             15
+aiml version="2.0"               312
+aiml version="2.1"               1
 
-08 May 2022
+<set             1377144
+<random                  363076
+<condition               9222
+<if              21
+<then            2
+<else            2
+<gossip                  19
+<loop            174
+</srai>                  765012
+<sr/>            31224
+</sraix>                 3333
+<get             216878
+<map             1030
+<bot             50824
+<date            1403
+<interval                49
+<think           1367300
+<explode                 125
+<normalize               25
+<denormalize             16
+<formal                  1376
+<lowercase               87
+<uppercase               23057
+<sentence                29
+</person>                2572
+</person2>               40
+<star            361501
+<thatstar                1558
+<topicstar               39
+<input           1252
+<request                 451
+<response                447
+</learn>                 33464
+</learnf>                106
+<eval            55207
+<id              123
+<vocabulary              10
+<program                 26
+<system                  361
+<javascript              30
+<size            57
