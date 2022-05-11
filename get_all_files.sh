@@ -339,7 +339,7 @@ log "ANT"
 #
 #
 mkdir ant
-curl https://escholarship.org/content/qt01b6x489/supp/ANTswers_Program_Files_b_profile.aiml > ant/ANT.aimli
+curl https://escholarship.org/content/qt01b6x489/supp/ANTswers_Program_Files_b_profile.aiml > ant/ANT.aiml
 
 
 #
