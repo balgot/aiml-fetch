@@ -127,6 +127,16 @@ mv tmp/lib ./aiml-utils-pandorabots
 rm -rf tmp
 
 
+#
+#
+log "rosie 2.0"
+#
+#
+git clone https://github.com/pandorabots/rosie.git tmp > /dev/null
+mv tmp/lib ./rosie-pandorabots
+rm -rf tmp
+
+
 
 ################################################################################
 #                         G i t H u b
@@ -339,7 +349,7 @@ log "ANT"
 #
 #
 mkdir ant
-curl https://escholarship.org/content/qt01b6x489/supp/ANTswers_Program_Files_b_profile.aiml > ant/ANT.aimli
+curl https://escholarship.org/content/qt01b6x489/supp/ANTswers_Program_Files_b_profile.aiml > ant/ANT.aiml
 
 
 #

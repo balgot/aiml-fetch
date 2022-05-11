@@ -1,51 +1,51 @@
-/** 08 May 2022 **/
-Number of .aiml files: 2071
-Number of <category> elements 2363175
-Total size  409.900MiB
+/** 12 May 2022 **/
+Number of .aiml files: 2094
+Number of <category> elements 2375569
+Total size  411.432MiB
 
-aiml version="1.0"               593
-aiml version="1.0.1"             15
-aiml version="2.0"               312
-aiml version="2.1"               1
+aiml version="1.0"               595
+aiml version="1.0.1"             16
+aiml version="2.0"               313
+aiml version="2.1"               2
 
-<set             1377144
-<random                  363076
-<condition               9222
+<set             1379593
+<random                  363801
+<condition               9376
 <if              21
 <then            2
 <else            2
 <gossip                  19
-<loop            174
-</srai>                  765012
-<sr/>            31224
-</sraix>                 3333
-<get             216878
-<map             1030
-<bot             50824
-<date            1403
-<interval                49
-<think           1367300
-<explode                 125
-<normalize               25
-<denormalize             16
-<formal                  1376
-<lowercase               87
-<uppercase               23057
-<sentence                29
-</person>                2572
+<loop            186
+</srai>                  770934
+<sr/>            31427
+</sraix>                 3334
+<get             218128
+<map             1168
+<bot             51081
+<date            1430
+<interval                57
+<think           1367922
+<explode                 138
+<normalize               28
+<denormalize             17
+<formal                  1402
+<lowercase               91
+<uppercase               23060
+<sentence                30
+</person>                2669
 </person2>               40
-<star            361501
-<thatstar                1558
+<star            364734
+<thatstar                1560
 <topicstar               39
-<input           1252
-<request                 451
-<response                447
-</learn>                 33464
+<input           1266
+<request                 489
+<response                487
+</learn>                 33523
 </learnf>                106
-<eval            55207
-<id              123
-<vocabulary              10
+<eval            55712
+<id              125
+<vocabulary              11
 <program                 26
 <system                  361
 <javascript              30
-<size            57
+<size            58
