@@ -127,6 +127,16 @@ mv tmp/lib ./aiml-utils-pandorabots
 rm -rf tmp
 
 
+#
+#
+log "rosie 2.0"
+#
+#
+git clone https://github.com/pandorabots/rosie.git tmp > /dev/null
+mv tmp/lib ./rosie-pandorabots
+rm -rf tmp
+
+
 
 ################################################################################
 #                         G i t H u b
