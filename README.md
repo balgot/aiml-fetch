@@ -5,14 +5,15 @@ for loading chatbots.
 
 This repo contains a script to download various publicly available
 AIML files. The current size of downloaded .aiml files is ~0.5GB.
+For simple data analysis, please refer to the `analysis` branch.
 
 
 ## Usage
 
 1) Have installed Python
 2) make virtual environment and activate it
-3) `bash get_all_files.sh`
-4) to view stats about downloaded files, run `bash analysis.sh`
+3) `bash download.sh`
+4) to view stats about downloaded files, checkout branch `analysis` and run `bash analysis.sh`
 5) to clean downloaded files, run `bash clean.sh`
 
 
