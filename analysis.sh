@@ -14,7 +14,7 @@ done
 echo
 
 # different tags
-for tag in $(cat aiml_tags.txt)
+for tag in $(cat data/aiml_tags.txt)
 do
     grep -ro $tag . | wc -l | xargs echo -e $tag "\t\t"
 done
