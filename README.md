@@ -1,19 +1,11 @@
-# aiml-fetch
+# aiml-fetch - Analysis
 
-Downloading free AIML (Artificial Intelligence Markup Language) files
-for loading chatbots.
+This branch contains the analysis of downloadable AIML files.
+For now, this is mostly just the tags, their number of occurences
+and the available and used AIML versions.
 
-This repo contains a script to download various publicly available
-AIML files. The current size of downloaded .aiml files is ~0.5GB.
-
-
-## Usage
-
-1) Have installed Python
-2) make virtual environment and activate it
-3) `bash get_all_files.sh`
-4) to view stats about downloaded files, run `bash analysis.sh`
-5) to clean downloaded files, run `bash clean.sh`
+For the specific data, please refer to file `data/results.txt` for tag
+occurencies and `data/aiml_tags.txt` for all avaialable tags.
 
 
 ## Disclaimer
