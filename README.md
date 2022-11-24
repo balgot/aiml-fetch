@@ -20,6 +20,6 @@ For simple data analysis, please refer to the `analysis` branch.
 ## Disclaimer
 
 Please read the licences for the datasets from their original sources
-as written in `get_all_files.sh` or in `helpers/` and respect the conditions.
+as written in `download.sh` or in `helpers/` and respect the conditions.
 At the time of publication, all files were freely accessible, if you have
 any copyright or other legal issues, please notify me.
